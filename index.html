@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume App</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="container">
+
+    <br>
+    <h1>Acting Resume</h1>
+    <br>
+    <table id="resume" class="table table-dark table-striped">
+        <tr>
+            <th>Role</th>
+            <th>Production</th>
+            <th>Company</th>
+            <th>Actions</th>
+        </tr>
+    </table>
+    <br>
+    
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-role">Role</label>
+                        <input type="text" class="form-control" id="new-role">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-production">Production</label>
+                        <input type="text" class="form-control" id="new-production">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-company">Company</label>
+                        <input type="text" class="form-control" id="new-company">
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div>
+                <button id="add" class="btn btn-primary form-control">Add</button>
+            </div>
+        </div>
+    </div>
+
+    <!--required scripts-->
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
