@@ -22,7 +22,7 @@ function elementByID(id)
 function createDeleteButton(id)
 {
     let button = document.createElement("button");
-    button.className = "btn btn-primary";
+    button.className = "btn btn-warning";
     button.id = id;
     button.innerHTML = "Delete Row";
     button.onclick = () => {
