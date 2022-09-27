@@ -21,7 +21,7 @@ function elementByID(id)
 
 function createDeleteButton(id)
 {
-    let button = document.createAttribute("button");
+    let button = document.createElement("button");
     button.className = "btn btn-primary";
     button.id = id;
     button.innerHTML = "Delete Row";
